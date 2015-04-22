@@ -21,10 +21,8 @@ tempColor = function() {
   }
 };
 
-console.log('this is working');
-
-  $(document).ready(function() {
-    showTemp();
+$(document).ready(function() {
+  showTemp();
 
   $("#increase").click(function() {
     thermostat.up();
@@ -45,14 +43,4 @@ console.log('this is working');
     checkPowerSave();
     showTemp();
   });
-
-
-
-
 });
-
-
-
-
-
-
